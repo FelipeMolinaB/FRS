@@ -1,0 +1,5 @@
+
+ifconfig -a
+sudo ifconfig eth0 up
+sudo service networking restart
+ifup eno1
